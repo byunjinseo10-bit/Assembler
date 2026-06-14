@@ -81,7 +81,7 @@ fn main() {
         } else if *line == "" {
         } else {
             let mut code = "111".to_string();
-            let mut dest = "".to_string();
+            let mut dest ;//= "".to_string();
             let mut jump = "";
             let mut comp = "";
             if line.contains("=") {
